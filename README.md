@@ -32,3 +32,9 @@ You can run the docker using the docker dsektop or using commands for runing:
 to stop the container use:
 
 `docker container stop *image id*` - You got the image id when you inserted the run command, Note: you can insert only the first 3 characters of the image id.
+
+### Linux
+`sudo docker run -d -p 8080:8080 igalhod/devops-task`
+to stop the container use:
+
+`sudo docker stop *image id*` - You got the image id when you inserted the run command, Note: you can insert only the first 3 characters of the image id.
